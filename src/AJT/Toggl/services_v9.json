@@ -285,6 +285,12 @@
           "description": "possible values true/false/both. By default true. If false, only archived projects are returned.",
           "type": "string",
           "default": "true"
+        },
+        "page": {
+          "location": "query",
+          "description": "Page number to fetch.",
+          "type": "integer",
+          "default": 1
         }
       }
     },
